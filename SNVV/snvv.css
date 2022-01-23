@@ -1,0 +1,349 @@
+*{
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+body {
+        background: url(https://znews-photo.zadn.vn/w660/Uploaded/ngtmns/2015_03_27/1_3.jpg) top center/cover ;
+}
+span {
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#fff;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -15px;
+}
+.container{
+    width :100%;
+    height: 100%;
+    position: relative;
+}
+ .balloon{
+    width: 738px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.all-ball{
+    width: 110px;
+    height: 140px;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    -webkit-transform-origin: bottom center;
+}
+.ballH{
+    left: 60px;
+    background: rgba(244, 61, 61, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(244, 61, 61, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+.ballA{
+    left: 180px;
+    background: rgba(61, 244, 131, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(61, 244, 131, 0.9);
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
+}
+.ballP{
+    left: 300px;
+    background: rgba(244, 61, 146, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(244, 61, 146, 0.9);
+    -webkit-animation: balloon3 4s ease-in-out infinite;
+    -moz-animation: balloon3 4s ease-in-out infinite;
+    -o-animation: balloon3 4s ease-in-out infinite;
+    animation: balloon3 4s ease-in-out infinite;
+}
+.ballP2{
+    left: 420px;
+    background: rgba(140, 61, 244, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(140, 61, 244, 0.9);
+    -webkit-animation: balloon4 5s ease-in-out infinite;
+    -moz-animation: balloon4 5s ease-in-out infinite;
+    -o-animation: balloon4 5s ease-in-out infinite;
+    animation: balloon4 5s ease-in-out infinite;
+}
+.ballY{
+    left: 540px;
+    background: rgba(61, 131, 244, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(61, 131, 244, 0.9);
+    -webkit-animation: balloon3 6s ease-in-out infinite;
+    -moz-animation: balloon3 6s ease-in-out infinite;
+    -o-animation: balloon3 6s ease-in-out infinite;
+    animation: balloon3 6s ease-in-out infinite;
+}
+.ballB{
+    left: -150px;
+    top: 200px;
+    background: rgba(61, 201, 244, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(61, 201, 244, 0.9);
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
+}
+.ballI{
+    left: -30px;
+    top: 200px;
+    background: rgba(61, 244, 153, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(61, 244, 153, 0.9);
+    -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
+}
+.ballR{
+    left: 90px;
+    top: 200px;
+    background: rgba(232, 244, 61, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(232, 244, 61, 0.9);
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
+}
+.ballT{
+    left: 210px;
+    top: 200px;
+    background: rgba(244, 61, 153, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(244, 61, 153, 0.9);
+    -webkit-animation: balloon3 6s ease-in-out infinite;
+    -moz-animation: balloon3 6s ease-in-out infinite;
+    -o-animation: balloon3 6s ease-in-out infinite;
+    animation: balloon3 6s ease-in-out infinite;
+}
+.ballH2{
+    left: 330px;
+    top: 200px;
+    background: rgba(244, 61, 61, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(244, 61, 61, 0.9);
+    -webkit-animation: balloon4 5s ease-in-out infinite;
+    -moz-animation: balloon4 5s ease-in-out infinite;
+    -o-animation: balloon4 5s ease-in-out infinite;
+    animation: balloon4 5s ease-in-out infinite;
+}
+.ballD{
+    left: 450px;
+    top: 200px;
+    background: rgba(244, 149, 61, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(244, 149, 61, 0.9);
+    -webkit-animation: balloon3 4s ease-in-out infinite;
+    -moz-animation: balloon3 4s ease-in-out infinite;
+    -o-animation: balloon3 4s ease-in-out infinite;
+    animation: balloon3 4s ease-in-out infinite;
+}
+.ballA2{
+    left: 580px;
+    top: 200px;
+    background: rgba(61, 244, 116, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(61, 244, 116, 0.9);
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
+}
+.ballY2{
+    left: 700px;
+    top: 200px;
+    background: rgba(131, 61, 244, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(131, 61, 244, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+
+.avatar {
+    margin-top: 350px;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 100px);
+}
+
+.avatar__img {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(234, 15, 150, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    -webkit-animation: balloon1 8s ease-in-out infinite;
+    -moz-animation: balloon1 8s ease-in-out infinite;
+    -o-animation: balloon1 8s ease-in-out infinite;
+    animation: balloon1 8s ease-in-out infinite;
+}
+
+.avatar__title {
+    cursor: pointer;
+    margin-left: -100px;
+    margin-top: -100px;
+    color:red;
+    position: relative;
+    top :80px;
+    text-align: center;
+    font-size: 40px;
+    -webkit-animation: balloon2 8s ease-in-out infinite;
+    -moz-animation: balloon2 8s ease-in-out infinite;
+    -o-animation: balloon2 8s ease-in-out infinite;
+    animation: balloon2 8s ease-in-out infinite;
+}
+@-webkit-keyframes balloon1 {
+    0%,
+    100% {
+        -webkit-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -webkit-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@-moz-keyframes balloon1 {
+    0%,
+    100% {
+        -moz-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -moz-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@-o-keyframes balloon1 {
+    0%,
+    100% {
+        -o-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -o-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@keyframes balloon1 {
+    0%,
+    100% {
+        transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(8deg);
+    }
+}
+@-webkit-keyframes balloon2 {
+    0%,
+    100% {
+        -webkit-transform: translateY(0) rotate(6eg);
+    }
+    50% {
+        -webkit-transform: translateY(-25px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon2 {
+    0%,
+    100% {
+        -moz-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -moz-transform: translateY(-25px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon2 {
+    0%,
+    100% {
+        -o-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -o-transform: translateY(-25px) rotate(-8deg);
+    }
+}
+@keyframes balloon2 {
+    0%,
+    100% {
+        transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        transform: translateY(-25px) rotate(-8deg);
+    }
+}
+@-webkit-keyframes balloon3 {
+    0%,
+    100% {
+        -webkit-transform: translate(0, -10px) rotate(6deg);
+    }
+    50% {
+        -webkit-transform: translate(-20px, 25px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon3 {
+    0%,
+    100% {
+        -moz-transform: translate(0, -10px) rotate(6deg);
+    }
+    50% {
+        -moz-transform: translate(-20px, 25px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon3 {
+    0%,
+    100% {
+        -o-transform: translate(0, -10px) rotate(6deg);
+    }
+    50% {
+        -o-transform: translate(-20px, 25px) rotate(-8deg);
+    }
+}
+@keyframes balloon3 {
+    0%,
+    100% {
+        transform: translate(0, -10px) rotate(6deg);
+    }
+    50% {
+        transform: translate(-20px, 25px) rotate(-8deg);
+    }
+}
+@-webkit-keyframes balloon4 {
+    0%,
+    100% {
+        -webkit-transform: translate(10px, -10px) rotate(-8deg);
+    }
+    50% {
+        -webkit-transform: translate(-15px, 20px) rotate(10deg);
+    }
+}
+@-moz-keyframes balloon4 {
+    0%,
+    100% {
+        -moz-transform: translate(10px, -10px) rotate(-8deg);
+    }
+    50% {
+        -moz-transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+@-o-keyframes balloon4 {
+    0%,
+    100% {
+        -o-transform: translate(10px, -10px) rotate(-8deg);
+    }
+    50% {
+        -o-transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+@keyframes balloon4 {
+    0%,
+    100% {
+        transform: translate(10px, -10px) rotate(-8deg);
+    }
+    50% {
+        transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+.swal-text {
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 4px;
+}

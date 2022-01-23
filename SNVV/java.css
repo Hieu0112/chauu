@@ -1,0 +1,43 @@
+.modal{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /* display:none; */
+    align-items: center;
+    justify-content: center;
+}
+.modal.open{
+    display:flex;
+}
+.thongbao{
+    text-align: center;
+}
+.modal-container{
+    align-items: center;
+    background: #fff;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+    animation: modalFadein ease .5s;
+    max-width: 100%;
+}
+.modal-close{
+    position:absolute;
+    right: 0;
+    top: 0;
+    padding:12px;
+    color:#fff;
+    opacity: 0.9;
+}
+.modal-close:hover{
+    opacity: 1;
+    background-color:#ccc;
+    cursor: pointer;
+}
+.modal-body{
+    padding:16px;
+}
